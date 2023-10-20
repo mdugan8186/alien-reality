@@ -1,0 +1,192 @@
+/* universal */
+html {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #00bf63;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header and nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.25rem;
+}
+
+.logo {
+    width: 4.375rem;
+    margin: 0 1rem;
+}
+
+.right {
+    display: flex;
+}
+
+.right li {
+    margin: 0 1rem;
+    list-style: none;
+}
+
+.right a {
+    text-decoration: none;
+    color: #00bf63;
+}
+
+.right a:hover {
+    color: #ffff00;
+}
+
+
+/* banner */
+.banner {
+    max-width: 80%;
+    height: 43.75rem;
+    margin: 0 auto;
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    background-color: #1a1a1a;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    background-color: #1a1a1a;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* travel */
+.travel-container {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.travel-types {
+    margin-top: 6rem;
+}
+
+.travel-types h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.travel-types p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.travel-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.travel-box {
+    max-width: 12.5rem;
+}
+
+.travel-box img {
+    max-width: 100%;
+    margin: 0.5rem 0;
+}
+
+.title {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.description {
+    text-align: center;
+}
+
+
+/* team */
+.our-team {
+    max-width: 80%;
+    margin: 0  auto;
+}
+
+.team-title h2 {
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('./images/hyper-space.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.team-box  {
+    max-width: 18.75rem;
+}
+
+.team-box img {
+    max-width: 100%;
+}
+
+.team-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.team-job {
+    font-size: 1.25rem;
+    text-align: center;
+    background-color: #1a1a1a;
+    padding-bottom: 0.75rem;
+}
+
+
+.contact {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+.copyright {
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+
+/* images */
+/* logo and images were created by me */
+/* logo created on Canva */
+/* images created on NightCafe */
